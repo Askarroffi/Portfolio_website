@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.header{
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #228B22;
+}
+
+.navbar-right a{
+    padding: 0 15px;
+    font-weight: bold;
+    transition: .4s;
+}
+
+.navbar-right a:hover{
+    background-color: #0463ca;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 50px;
+}
+
+.hero-desk h1{
+    font-size: 45px;
+    color: #228B22;
+    line-height: 5px;
+    padding: 0;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.hero-desk span{
+    color: #0463ca;
+}
+
+.hero-name{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.hero-name h2{
+    font-size: 25px;
+}
+
+.hero-name img{
+    padding-left: 10px;
+    width: 7%;
+    height: auto;
+    transform: rotate(-30deg);
+}
+
+.hero-img{
+    display: flex;
+    justify-content: center;
+}
+
+.hero-img img{
+    width: 70%;
+    height: auto;
+    transition: .5s;
+}
+
+.hero-img img:hover{
+    opacity: 0.7;
+}
+
+.shape{
+    height: 50px;
+    width: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50%;
+    background-color: #0463ca;
+}
+
+.hero-btn{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.hero-btn a{
+    text-decoration: none;
+    padding: 5px 20px;
+    color: white;
+    background-color: #0463ca;
+    border: 2px solid #0463ca;
+    border-radius: 15px;
+    transition: .5s;
+}
+
+.hero-btn a:hover{
+    padding: 5px 20px;
+    background-color: transparent;
+    color: #0463ca;
+    border-radius: 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.hero-sosmed{
+    display: flex;
+    gap: 25px;
+    padding: 25px 0;
+}
+
+.hero-sosmed a{
+    color: black;
+}
+
+.bx{
+    font-size: 25px;
+    padding: 5px 5px;
+    border-radius: 20px;
+    opacity: 0.8;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.bx:hover{
+    color: white;
+    background-color: #228B22;
+}
+
+.about{
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-img{
+    display: flex;
+    justify-content: center;
+}
+
+.about-img img{
+    width: 85%;
+}
+
+.about-desk{
+    margin-left: 3rem;
+    width: 600%;
+    color: white;
+}
+
+.about-desk h1{
+    display: flex;
+    font-size: 40px;
+    line-height: 30px;
+    color: white;
+}
+
+.about-desk{
+    padding: 0.5rem 2rem;
+    background-color: #0463ca;
+    border-radius: 1rem;
+}
+
+.about-btn a{
+    line-height: 3.5rem;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    transition: .4s;
+}
+
+.about-btn a:hover{
+    background-color: white;
+    color: #0463ca;
+    letter-spacing: 1px;
+}
