@@ -18,7 +18,7 @@ body{
 .navbar{
     display: flex;
     justify-content: space-between;
-    padding: 20px 200px;
+    padding: 20px 50px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     position: relative;
@@ -26,7 +26,8 @@ body{
 
 .navbar a{
     text-decoration: none;
-    color: #228B22;
+    font-size: 0.9rem;
+    color: #002347;
 }
 
 .navbar-right a{
@@ -51,7 +52,7 @@ body{
 
 .hero-desk h1{
     font-size: 45px;
-    color: #228B22;
+    color: #002347;
     line-height: 20px;
     padding: 0;
     margin-top: 1.5rem;
@@ -134,7 +135,7 @@ body{
 }
 
 .hero-sosmed a{
-    color: black;
+    color: #002347;
 }
 
 .bx{
@@ -148,7 +149,7 @@ body{
 
 .bx:hover{
     color: white;
-    background-color: #228B22;
+    background-color: #002347;
 }
 
 .about{
@@ -210,7 +211,7 @@ body{
 .edu h1{
     font-size: 40px;
     font-weight: bold;
-    color: #228B22;
+    color: #002347;
     text-align: center;
 }
 
@@ -226,7 +227,9 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid #228B22;
+    border: 2px solid #002347;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .edu-card img{
@@ -236,6 +239,6 @@ body{
 .edu-card h3,
 .edu-card h4,
 .edu-card h5{
-    color: #228B22;
+    color: #002347;
     line-height: 0.3rem;
 }
