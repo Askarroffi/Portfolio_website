@@ -242,3 +242,10 @@ body{
     color: #002347;
     line-height: 0.3rem;
 }
+
+.portcard-top{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 650px 650px;
+    gap: 6rem;
+}
